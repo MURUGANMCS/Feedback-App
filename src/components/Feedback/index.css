@@ -1,0 +1,69 @@
+/* Write your CSS code here. */
+* {
+  font-family: roboto;
+}
+.bg-container {
+  background-image: linear-gradient(to left, #ffc0bb, #ffeeee);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.card-container {
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80vw;
+}
+.heading {
+  text-align: center;
+  font-size: 20px;
+}
+.images {
+  height: 50px;
+  margin: 20px;
+}
+.btn {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .images {
+    height: 120px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .details {
+    font-size: 35px;
+  }
+  .emoji-name{
+    font-size: 30px;
+  }
+}
